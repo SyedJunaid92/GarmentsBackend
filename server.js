@@ -12,9 +12,6 @@ app.use(express.json());
 app.use("/stock", StockRoute);
 
 
-
-
-
 mongoose
   .connect(CONSTANT.CONNECTION_URL, {
     useNewUrlParser: true,
